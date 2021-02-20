@@ -1,0 +1,15 @@
+GET http://localhost:5000/
+
+
+###
+POST http://localhost:5000/newStudent
+Content-Type: application/json
+
+{
+        "Name": "Arjun K Prasad",
+        "BloodGrp": "O +ve",
+        "Email": "arjun1237.kp@gmail.com",
+        "City": "Bangalore",
+        "ImageLink": "https://avatars1.githubusercontent.com/u/18505592?s=460&u=114f93be5cd15791beb321809c6b4c07b13a6bcd&v=4",
+        "Gender": "Male"
+}
